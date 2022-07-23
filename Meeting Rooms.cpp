@@ -42,7 +42,7 @@ public:
         
         while(i<startpoint.size())
         {
-            if(startpoint[i]<endpoint[j])
+            if(startpoint[i]<endpoint[j])//if another meeting gets started within the eneding time of currently running meeting that's startpoint<endpoint
             {
                 counter++;
                 i++;
